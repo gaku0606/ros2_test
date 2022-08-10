@@ -1,0 +1,2 @@
+[35m[1mScanning dependencies of target mpu9250lib[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mpu9250lib.dir/src/mpu9250_i2c.cpp.o[0m

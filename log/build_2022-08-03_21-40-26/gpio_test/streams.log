@@ -1,0 +1,30 @@
+[0.082s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[0.233s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.328s] -- Using PYTHON_EXECUTABLE: /bin/python3
+[1.158s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.330s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.343s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.513s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.040s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.318s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.324s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.325s] -- Configured cppcheck include dirs: 
+[3.325s] -- Configured cppcheck exclude dirs and/or files: 
+[3.330s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.330s] -- Configured cpplint exclude dirs and/or files: 
+[3.333s] -- Added test 'lint_cmake' to check CMake code style
+[3.339s] -- Added test 'uncrustify' to check C / C++ code style
+[3.340s] -- Configured uncrustify additional arguments: 
+[3.341s] -- Added test 'xmllint' to check XML markup files
+[3.359s] -- Configuring done
+[3.386s] -- Generating done
+[3.392s] -- Build files have been written to: /home/pi4/ros2_test/build/gpio_test
+[3.617s] [ 50%] [32m[1mLinking CXX executable gpio[0m
+[4.019s] /bin/ld: cannot find -lpigpio_if2
+[4.019s] collect2: error: ld returned 1 exit status
+[4.023s] make[2]: *** [CMakeFiles/gpio.dir/build.make:131: gpio] Error 1
+[4.024s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2
+[4.024s] make: *** [Makefile:141: all] Error 2
+[4.032s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4

@@ -1,0 +1,10 @@
+[0.078s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[0.337s] [ 50%] [32mBuilding CXX object CMakeFiles/gpio.dir/src/gpio.cpp.o[0m
+[0.399s] [01m[K/home/pi4/ros2_test/src/gpio_test/src/gpio.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.400s]     3 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.401s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.401s] compilation terminated.
+[0.404s] make[2]: *** [CMakeFiles/gpio.dir/build.make:63: CMakeFiles/gpio.dir/src/gpio.cpp.o] Error 1
+[0.405s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2
+[0.405s] make: *** [Makefile:141: all] Error 2
+[0.412s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4

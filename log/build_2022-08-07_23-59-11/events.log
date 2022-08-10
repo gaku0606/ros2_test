@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000946] (gpio_test) JobQueued: {'identifier': 'gpio_test', 'dependencies': OrderedDict()}
+[0.003258] (gpio_test) JobStarted: {'identifier': 'gpio_test'}
+[0.071829] (gpio_test) JobProgress: {'identifier': 'gpio_test', 'progress': 'cmake'}
+[0.076392] (gpio_test) JobProgress: {'identifier': 'gpio_test', 'progress': 'build'}
+[0.079296] (gpio_test) Command: {'cmd': ['/bin/cmake', '--build', '/home/pi4/ros2_test/build/gpio_test', '--', '-j4', '-l4'], 'cwd': '/home/pi4/ros2_test/build/gpio_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /bin/lesspipe %s'), ('USER', 'pi4'), ('SSH_AGENT_PID', '8339'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pi4'), ('OLDPWD', '/home/pi4'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8186'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pi4/ros2_test/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pi4'), ('JOURNAL_STREAM', '9:98061'), ('_', '/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi:@/tmp/.ICE-unix/8390,unix/raspberrypi:/tmp/.ICE-unix/8390'), ('INVOCATION_ID', '35142c9a451b40fab43e00d16dd87658'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f029096_9851_4628_9631_c624d142138a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pi4/ros2_test/install/gpio_test:/opt/ros/foxy'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pi4/ros2_test/build/gpio_test'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pi4/ros2_test/install/gpio_test:/opt/ros/foxy')]), 'shell': False}
+[0.099757] (-) TimerEvent: {}
+[0.201999] (-) TimerEvent: {}
+[0.212231] (gpio_test) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.302423] (-) TimerEvent: {}
+[0.331242] (gpio_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /bin/python3\n'}
+[0.402530] (-) TimerEvent: {}
+[0.503379] (-) TimerEvent: {}
+[0.604219] (-) TimerEvent: {}
+[0.704962] (-) TimerEvent: {}
+[0.805736] (-) TimerEvent: {}
+[0.906896] (-) TimerEvent: {}
+[1.007646] (-) TimerEvent: {}
+[1.108357] (-) TimerEvent: {}
+[1.209201] (-) TimerEvent: {}
+[1.309859] (gpio_test) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.310654] (-) TimerEvent: {}
+[1.411273] (-) TimerEvent: {}
+[1.500130] (gpio_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.511475] (-) TimerEvent: {}
+[1.512535] (gpio_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.611661] (-) TimerEvent: {}
+[1.712437] (-) TimerEvent: {}
+[1.813287] (-) TimerEvent: {}
+[1.914183] (-) TimerEvent: {}
+[2.014976] (-) TimerEvent: {}
+[2.115876] (-) TimerEvent: {}
+[2.216854] (-) TimerEvent: {}
+[2.317610] (-) TimerEvent: {}
+[2.418419] (-) TimerEvent: {}
+[2.511977] (gpio_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.518551] (-) TimerEvent: {}
+[2.619282] (-) TimerEvent: {}
+[2.711258] (gpio_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.716875] (gpio_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.719423] (-) TimerEvent: {}
+[2.820122] (-) TimerEvent: {}
+[2.920909] (-) TimerEvent: {}
+[3.021676] (-) TimerEvent: {}
+[3.122477] (-) TimerEvent: {}
+[3.223246] (-) TimerEvent: {}
+[3.264717] (gpio_test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.323421] (-) TimerEvent: {}
+[3.424122] (-) TimerEvent: {}
+[3.525013] (-) TimerEvent: {}
+[3.586362] (gpio_test) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.593885] (gpio_test) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.594774] (gpio_test) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.595374] (gpio_test) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.600716] (gpio_test) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.601348] (gpio_test) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.605320] (gpio_test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.612640] (gpio_test) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.613679] (gpio_test) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.614938] (gpio_test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.625183] (-) TimerEvent: {}
+[3.633280] (gpio_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.668947] (gpio_test) StdoutLine: {'line': b'-- Generating done\n'}
+[3.690912] (gpio_test) StdoutLine: {'line': b'-- Build files have been written to: /home/pi4/ros2_test/build/gpio_test\n'}
+[3.725464] (-) TimerEvent: {}
+[3.802311] (gpio_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gpio\x1b[0m\n'}
+[3.825654] (-) TimerEvent: {}
+[3.926391] (-) TimerEvent: {}
+[3.950457] (gpio_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gpio.dir/src/I2C_test.cpp.o\x1b[0m\n'}
+[4.026580] (-) TimerEvent: {}
+[4.034945] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kros/ros.h: No such file or directory\n'}
+[4.035890] (gpio_test) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K<ros/ros.h>\x1b[m\x1b[K\n'}
+[4.036718] (gpio_test) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.037333] (gpio_test) StderrLine: {'line': b'compilation terminated.\n'}
+[4.039271] (gpio_test) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gpio.dir/build.make:63: CMakeFiles/gpio.dir/src/I2C_test.cpp.o] Error 1\n'}
+[4.040796] (gpio_test) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2\n'}
+[4.041351] (gpio_test) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.046170] (gpio_test) CommandEnded: {'returncode': 2}
+[4.126800] (-) TimerEvent: {}
+[4.227904] (-) TimerEvent: {}
+[4.288369] (gpio_test) JobEnded: {'identifier': 'gpio_test', 'rc': 2}
+[4.302937] (-) EventReactorShutdown: {}

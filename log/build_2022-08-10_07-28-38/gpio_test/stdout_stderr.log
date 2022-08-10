@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target gpio[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gpio.dir/src/I2C_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable gpio[0m
+/bin/ld: CMakeFiles/gpio.dir/src/I2C_test.cpp.o: in function `main':
+I2C_test.cpp:(.text+0x2ec): undefined reference to `mpu9250::mpu9250(AD0)'
+/bin/ld: I2C_test.cpp:(.text+0x2f4): undefined reference to `mpu9250::sensorTest()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/gpio.dir/build.make:131: gpio] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

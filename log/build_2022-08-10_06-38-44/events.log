@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.005707] (gpio_test) JobQueued: {'identifier': 'gpio_test', 'dependencies': OrderedDict()}
+[0.005917] (gpio_test) JobStarted: {'identifier': 'gpio_test'}
+[0.080266] (gpio_test) JobProgress: {'identifier': 'gpio_test', 'progress': 'cmake'}
+[0.083498] (gpio_test) JobProgress: {'identifier': 'gpio_test', 'progress': 'build'}
+[0.089216] (gpio_test) Command: {'cmd': ['/bin/cmake', '--build', '/home/pi4/ros2_test/build/gpio_test', '--', '-j4', '-l4'], 'cwd': '/home/pi4/ros2_test/build/gpio_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /bin/lesspipe %s'), ('USER', 'pi4'), ('SSH_AGENT_PID', '8339'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pi4'), ('OLDPWD', '/home/pi4/ros2_test/install/gpio_test/share/gpio_test'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8186'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pi4/ros2_test/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pi4'), ('JOURNAL_STREAM', '9:98061'), ('_', '/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi:@/tmp/.ICE-unix/8390,unix/raspberrypi:/tmp/.ICE-unix/8390'), ('INVOCATION_ID', '35142c9a451b40fab43e00d16dd87658'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f029096_9851_4628_9631_c624d142138a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pi4/ros2_test/install/gpio_test:/opt/ros/foxy'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pi4/ros2_test/build/gpio_test'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pi4/ros2_test/install/gpio_test:/opt/ros/foxy')]), 'shell': False}
+[0.099974] (-) TimerEvent: {}
+[0.200966] (-) TimerEvent: {}
+[0.304375] (-) TimerEvent: {}
+[0.306483] (gpio_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gpio\x1b[0m\n'}
+[0.404835] (-) TimerEvent: {}
+[0.461433] (gpio_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gpio.dir/src/I2C_test.cpp.o\x1b[0m\n'}
+[0.505384] (-) TimerEvent: {}
+[0.606305] (-) TimerEvent: {}
+[0.707156] (-) TimerEvent: {}
+[0.808005] (-) TimerEvent: {}
+[0.908955] (-) TimerEvent: {}
+[1.009825] (-) TimerEvent: {}
+[1.110757] (-) TimerEvent: {}
+[1.211673] (-) TimerEvent: {}
+[1.312577] (-) TimerEvent: {}
+[1.413767] (-) TimerEvent: {}
+[1.514898] (-) TimerEvent: {}
+[1.616274] (-) TimerEvent: {}
+[1.717196] (-) TimerEvent: {}
+[1.818223] (-) TimerEvent: {}
+[1.919223] (-) TimerEvent: {}
+[2.028268] (-) TimerEvent: {}
+[2.129416] (-) TimerEvent: {}
+[2.230257] (-) TimerEvent: {}
+[2.331158] (-) TimerEvent: {}
+[2.431969] (-) TimerEvent: {}
+[2.532916] (-) TimerEvent: {}
+[2.633764] (-) TimerEvent: {}
+[2.734639] (-) TimerEvent: {}
+[2.835488] (-) TimerEvent: {}
+[2.936421] (-) TimerEvent: {}
+[3.048351] (-) TimerEvent: {}
+[3.149305] (-) TimerEvent: {}
+[3.250125] (-) TimerEvent: {}
+[3.350925] (-) TimerEvent: {}
+[3.451767] (-) TimerEvent: {}
+[3.552657] (-) TimerEvent: {}
+[3.653554] (-) TimerEvent: {}
+[3.754396] (-) TimerEvent: {}
+[3.855223] (-) TimerEvent: {}
+[3.956127] (-) TimerEvent: {}
+[4.057534] (-) TimerEvent: {}
+[4.158408] (-) TimerEvent: {}
+[4.259247] (-) TimerEvent: {}
+[4.360211] (-) TimerEvent: {}
+[4.461087] (-) TimerEvent: {}
+[4.561881] (-) TimerEvent: {}
+[4.662720] (-) TimerEvent: {}
+[4.763761] (-) TimerEvent: {}
+[4.865001] (-) TimerEvent: {}
+[4.966359] (-) TimerEvent: {}
+[5.067485] (-) TimerEvent: {}
+[5.168769] (-) TimerEvent: {}
+[5.269536] (-) TimerEvent: {}
+[5.370768] (-) TimerEvent: {}
+[5.471726] (-) TimerEvent: {}
+[5.572584] (-) TimerEvent: {}
+[5.673401] (-) TimerEvent: {}
+[5.774293] (-) TimerEvent: {}
+[5.875097] (-) TimerEvent: {}
+[5.975973] (-) TimerEvent: {}
+[6.076901] (-) TimerEvent: {}
+[6.178163] (-) TimerEvent: {}
+[6.279102] (-) TimerEvent: {}
+[6.379938] (-) TimerEvent: {}
+[6.480793] (-) TimerEvent: {}
+[6.582124] (-) TimerEvent: {}
+[6.593800] (gpio_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:10\x1b[m\x1b[K:\n'}
+[6.594767] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid I2C::read(unsigned char, char*, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.595400] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:38:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.595964] (gpio_test) StderrLine: {'line': b'   38 |     void read(unsigned char reg_addr, char* buffer, \x1b[01;35m\x1b[Kunsigned int count\x1b[m\x1b[K){\n'}
+[6.596565] (gpio_test) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[6.615196] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.617154] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:35:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KI2C::I2C(char, int)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[6.618863] (gpio_test) StderrLine: {'line': b'   35 |     I2C i2c(MPU9250_SLAVE_ADDR_HIGH, 1\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.620888] (gpio_test) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.622614] (gpio_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:10\x1b[m\x1b[K:\n'}
+[6.625924] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:11:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[6.628802] (gpio_test) StderrLine: {'line': b'   11 |     \x1b[01;36m\x1b[KI2C\x1b[m\x1b[K(char slave_addr, int i2cBus = 1){\n'}
+[6.631091] (gpio_test) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.632023] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:35:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KI2C::~I2C()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[6.633910] (gpio_test) StderrLine: {'line': b'   35 |     I2C i2c(MPU9250_SLAVE_ADDR_HIGH, 1\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.635157] (gpio_test) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.635879] (gpio_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:10\x1b[m\x1b[K:\n'}
+[6.636607] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:17:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[6.637260] (gpio_test) StderrLine: {'line': b'   17 |     \x1b[01;36m\x1b[K~\x1b[m\x1b[KI2C(){\n'}
+[6.637923] (gpio_test) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.682324] (-) TimerEvent: {}
+[6.688384] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:64:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimu_i2c\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.690643] (gpio_test) StderrLine: {'line': b'   64 |     i2c_close(pi, \x1b[01;31m\x1b[Kimu_i2c\x1b[m\x1b[K);\n'}
+[6.691495] (gpio_test) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.782556] (-) TimerEvent: {}
+[6.883510] (-) TimerEvent: {}
+[6.984567] (-) TimerEvent: {}
+[7.085566] (-) TimerEvent: {}
+[7.186399] (-) TimerEvent: {}
+[7.287306] (-) TimerEvent: {}
+[7.388572] (-) TimerEvent: {}
+[7.489576] (-) TimerEvent: {}
+[7.590395] (-) TimerEvent: {}
+[7.691320] (-) TimerEvent: {}
+[7.792615] (-) TimerEvent: {}
+[7.893632] (-) TimerEvent: {}
+[7.994574] (-) TimerEvent: {}
+[8.095383] (-) TimerEvent: {}
+[8.196299] (-) TimerEvent: {}
+[8.297219] (-) TimerEvent: {}
+[8.398403] (-) TimerEvent: {}
+[8.499263] (-) TimerEvent: {}
+[8.600100] (-) TimerEvent: {}
+[8.701050] (-) TimerEvent: {}
+[8.802141] (-) TimerEvent: {}
+[8.902942] (-) TimerEvent: {}
+[9.003818] (-) TimerEvent: {}
+[9.105247] (-) TimerEvent: {}
+[9.206129] (-) TimerEvent: {}
+[9.307261] (-) TimerEvent: {}
+[9.408096] (-) TimerEvent: {}
+[9.508983] (-) TimerEvent: {}
+[9.610062] (-) TimerEvent: {}
+[9.710865] (-) TimerEvent: {}
+[9.811736] (-) TimerEvent: {}
+[9.912579] (-) TimerEvent: {}
+[10.013392] (-) TimerEvent: {}
+[10.114326] (-) TimerEvent: {}
+[10.215260] (-) TimerEvent: {}
+[10.226730] (gpio_test) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gpio.dir/build.make:63: CMakeFiles/gpio.dir/src/I2C_test.cpp.o] Error 1\n'}
+[10.227839] (gpio_test) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2\n'}
+[10.228662] (gpio_test) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.234083] (gpio_test) CommandEnded: {'returncode': 2}
+[10.315535] (-) TimerEvent: {}
+[10.421788] (-) TimerEvent: {}
+[10.466655] (gpio_test) JobEnded: {'identifier': 'gpio_test', 'rc': 2}
+[10.472827] (-) EventReactorShutdown: {}

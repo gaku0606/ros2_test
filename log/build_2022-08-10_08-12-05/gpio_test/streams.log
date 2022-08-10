@@ -1,0 +1,55 @@
+[0.098s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake /home/pi4/ros2_test/src/gpio_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4/ros2_test/install/gpio_test
+[0.223s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.337s] -- Using PYTHON_EXECUTABLE: /bin/python3
+[1.215s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.280s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.530s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.660s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.892s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.900s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.493s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.817s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.827s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.829s] -- Configured cppcheck include dirs: /home/pi4/ros2_test/src/gpio_test/include
+[3.829s] -- Configured cppcheck exclude dirs and/or files: 
+[3.837s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.838s] -- Configured cpplint exclude dirs and/or files: 
+[3.843s] -- Added test 'lint_cmake' to check CMake code style
+[3.852s] -- Added test 'uncrustify' to check C / C++ code style
+[3.852s] -- Configured uncrustify additional arguments: 
+[3.855s] -- Added test 'xmllint' to check XML markup files
+[3.881s] -- Configuring done
+[3.938s] -- Generating done
+[3.948s] -- Build files have been written to: /home/pi4/ros2_test/build/gpio_test
+[3.976s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake /home/pi4/ros2_test/src/gpio_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi4/ros2_test/install/gpio_test
+[3.988s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[4.191s] [35m[1mScanning dependencies of target mpu9250lib[0m
+[4.241s] [ 25%] [32mBuilding CXX object CMakeFiles/mpu9250lib.dir/src/mpu9250_i2c.cpp.o[0m
+[5.409s] [ 50%] [32m[1mLinking CXX static library libmpu9250lib.a[0m
+[5.536s] [ 50%] Built target mpu9250lib
+[5.593s] [35m[1mScanning dependencies of target gpio[0m
+[5.745s] [ 75%] [32mBuilding CXX object CMakeFiles/gpio.dir/src/I2C_test.cpp.o[0m
+[18.230s] [100%] [32m[1mLinking CXX executable gpio[0m
+[18.999s] [100%] Built target gpio
+[19.043s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[19.243s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/pi4/ros2_test/build/gpio_test
+[19.277s] -- Install configuration: ""
+[19.278s] -- Execute custom install script
+[19.281s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/lib/gpio_test/gpio
+[19.319s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/ament_index/resource_index/package_run_dependencies/gpio_test
+[19.356s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/ament_index/resource_index/parent_prefix_path/gpio_test
+[19.392s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/ament_prefix_path.sh
+[19.439s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/ament_prefix_path.dsv
+[19.482s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/path.sh
+[19.538s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/path.dsv
+[19.576s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.bash
+[19.613s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.sh
+[19.648s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.zsh
+[19.682s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.dsv
+[19.720s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.dsv
+[19.755s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/ament_index/resource_index/packages/gpio_test
+[19.794s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/cmake/gpio_testConfig.cmake
+[19.832s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/cmake/gpio_testConfig-version.cmake
+[19.866s] -- Symlinking: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.xml
+[19.907s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/pi4/ros2_test/build/gpio_test

@@ -1,0 +1,14 @@
+[0.097s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[0.321s] [35m[1mScanning dependencies of target gpio[0m
+[0.465s] [ 50%] [32mBuilding CXX object CMakeFiles/gpio.dir/src/I2C_test.cpp.o[0m
+[6.563s] In file included from [01m[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:10[m[K:
+[6.564s] [01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:40:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid I2C::read(unsigned char, char*)[m[K’ cannot be overloaded with ‘[01m[Kvoid I2C::read(unsigned char, char*)[m[K’
+[6.565s]    40 |     void [01;31m[Kread[m[K(unsigned char reg_addr, char* buffer){ //}, unsigned int count){
+[6.565s]       |          [01;31m[K^~~~[m[K
+[6.566s] [01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:35:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid I2C::read(unsigned char, char*)[m[K’
+[6.566s]    35 |     void [01;36m[Kread[m[K(unsigned char reg_addr, char* buffer){
+[6.567s]       |          [01;36m[K^~~~[m[K
+[10.183s] make[2]: *** [CMakeFiles/gpio.dir/build.make:63: CMakeFiles/gpio.dir/src/I2C_test.cpp.o] Error 1
+[10.184s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2
+[10.185s] make: *** [Makefile:141: all] Error 2
+[10.208s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4

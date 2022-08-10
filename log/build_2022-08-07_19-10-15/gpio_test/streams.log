@@ -1,0 +1,30 @@
+[0.089s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[0.310s] [35m[1mScanning dependencies of target gpio[0m
+[0.469s] [ 50%] [32mBuilding CXX object CMakeFiles/gpio.dir/src/gpio2.cpp.o[0m
+[6.677s] [01m[K/home/pi4/ros2_test/src/gpio_test/src/gpio2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.679s] [01m[K/home/pi4/ros2_test/src/gpio_test/src/gpio2.cpp:35:19:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} and ‘[01m[Kconst char [9][m[K’)
+[6.679s]    35 |             str = [01;31m[K"LED ON!!"[m[K;
+[6.680s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[6.680s] In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7[m[K,
+[6.681s]                  from [01m[K/home/pi4/ros2_test/src/gpio_test/src/gpio2.cpp:6[m[K:
+[6.681s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(const std_msgs::msg::String_<std::allocator<void> >&)[m[K’
+[6.682s]    31 | struct [01;36m[KString_[m[K
+[6.682s]       |        [01;36m[K^~~~~~~[m[K
+[6.683s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [9][m[K’ to ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >&[m[K’
+[6.683s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(std_msgs::msg::String_<std::allocator<void> >&&)[m[K’
+[6.684s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [9][m[K’ to ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >&&[m[K’
+[6.684s] [01m[K/home/pi4/ros2_test/src/gpio_test/src/gpio2.cpp:39:19:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} and ‘[01m[Kconst char [8][m[K’)
+[6.685s]    39 |             str = [01;31m[K"LED OFF"[m[K;
+[6.685s]       |                   [01;31m[K^~~~~~~~~[m[K
+[6.686s] In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7[m[K,
+[6.686s]                  from [01m[K/home/pi4/ros2_test/src/gpio_test/src/gpio2.cpp:6[m[K:
+[6.687s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(const std_msgs::msg::String_<std::allocator<void> >&)[m[K’
+[6.687s]    31 | struct [01;36m[KString_[m[K
+[6.687s]       |        [01;36m[K^~~~~~~[m[K
+[6.688s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [8][m[K’ to ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >&[m[K’
+[6.688s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(std_msgs::msg::String_<std::allocator<void> >&&)[m[K’
+[6.689s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [8][m[K’ to ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >&&[m[K’
+[10.343s] make[2]: *** [CMakeFiles/gpio.dir/build.make:63: CMakeFiles/gpio.dir/src/gpio2.cpp.o] Error 1
+[10.344s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2
+[10.344s] make: *** [Makefile:141: all] Error 2
+[10.350s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4

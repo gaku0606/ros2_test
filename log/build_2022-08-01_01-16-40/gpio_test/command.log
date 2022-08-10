@@ -1,0 +1,2 @@
+Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake /home/pi4/ros2_test/src/gpio_test -DCMAKE_INSTALL_PREFIX=/home/pi4/ros2_test/install/gpio_test
+Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake /home/pi4/ros2_test/src/gpio_test -DCMAKE_INSTALL_PREFIX=/home/pi4/ros2_test/install/gpio_test

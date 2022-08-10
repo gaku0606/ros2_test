@@ -1,0 +1,1 @@
+/home/pi4/ros2_test/build/gpio_test/ament_cmake_environment_hooks/local_setup.sh

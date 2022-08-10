@@ -1,0 +1,44 @@
+[0.109s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[0.229s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.328s] -- Using PYTHON_EXECUTABLE: /bin/python3
+[1.163s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.354s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.539s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.544s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.068s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.386s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.404s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.405s] -- Configured cppcheck include dirs: /home/pi4/ros2_test/src/gpio_test/include
+[3.406s] -- Configured cppcheck exclude dirs and/or files: 
+[3.413s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.414s] -- Configured cpplint exclude dirs and/or files: 
+[3.419s] -- Added test 'lint_cmake' to check CMake code style
+[3.427s] -- Added test 'uncrustify' to check C / C++ code style
+[3.428s] -- Configured uncrustify additional arguments: 
+[3.429s] -- Added test 'xmllint' to check XML markup files
+[3.448s] -- Configuring done
+[3.513s] -- Generating done
+[3.524s] -- Build files have been written to: /home/pi4/ros2_test/build/gpio_test
+[3.666s] [35m[1mScanning dependencies of target mpu9250lib[0m
+[3.737s] [ 25%] [32mBuilding CXX object CMakeFiles/mpu9250lib.dir/src/mpu9250_i2c.cpp.o[0m
+[3.974s] [ 50%] [32m[1mLinking CXX static library libmpu9250lib.a[0m
+[4.119s] [ 50%] Built target mpu9250lib
+[4.170s] [35m[1mScanning dependencies of target gpio[0m
+[4.313s] [ 75%] [32m[1mLinking CXX executable gpio[0m
+[5.076s] /bin/ld: libmpu9250lib.a(mpu9250_i2c.cpp.o): in function `I2C::I2C(char, int)':
+[5.077s] mpu9250_i2c.cpp:(.text._ZN3I2CC2Eci[_ZN3I2CC5Eci]+0x1c): undefined reference to `pigpio_start'
+[5.078s] /bin/ld: mpu9250_i2c.cpp:(.text._ZN3I2CC2Eci[_ZN3I2CC5Eci]+0x54): undefined reference to `i2c_open'
+[5.078s] /bin/ld: libmpu9250lib.a(mpu9250_i2c.cpp.o): in function `I2C::~I2C()':
+[5.079s] mpu9250_i2c.cpp:(.text._ZN3I2CD2Ev[_ZN3I2CD5Ev]+0x24): undefined reference to `i2c_close'
+[5.079s] /bin/ld: mpu9250_i2c.cpp:(.text._ZN3I2CD2Ev[_ZN3I2CD5Ev]+0x30): undefined reference to `pigpio_stop'
+[5.080s] /bin/ld: libmpu9250lib.a(mpu9250_i2c.cpp.o): in function `I2C::write(unsigned char, unsigned char)':
+[5.082s] mpu9250_i2c.cpp:(.text._ZN3I2C5writeEhh[_ZN3I2C5writeEhh]+0x40): undefined reference to `i2c_write_byte_data'
+[5.083s] /bin/ld: libmpu9250lib.a(mpu9250_i2c.cpp.o): in function `I2C::read(unsigned char)':
+[5.084s] mpu9250_i2c.cpp:(.text._ZN3I2C4readEh[_ZN3I2C4readEh]+0x30): undefined reference to `i2c_read_byte_data'
+[5.085s] collect2: error: ld returned 1 exit status
+[5.085s] make[2]: *** [CMakeFiles/gpio.dir/build.make:132: gpio] Error 1
+[5.086s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/gpio.dir/all] Error 2
+[5.087s] make: *** [Makefile:141: all] Error 2
+[5.091s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4

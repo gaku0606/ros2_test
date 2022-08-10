@@ -1,0 +1,7 @@
+/bin/ld: CMakeFiles/gpio.dir/src/gpio.cpp.o: in function `main':
+gpio.cpp:(.text+0x2ec): undefined reference to `pigpio_start'
+/bin/ld: gpio.cpp:(.text+0x4f4): undefined reference to `gpio_write'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/gpio.dir/build.make:131: gpio] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

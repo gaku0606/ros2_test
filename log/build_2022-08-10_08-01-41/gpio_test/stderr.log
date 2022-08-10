@@ -1,0 +1,28 @@
+In file included from [01m[K/home/pi4/ros2_test/src/gpio_test/include/mpu9250_i2c.h:5[m[K,
+                 from [01m[K/home/pi4/ros2_test/src/gpio_test/src/mpu9250_i2c.cpp:1[m[K:
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:[m[K In constructor ‘[01m[KI2C::I2C(char, int)[m[K’:
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:25:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_i2c[m[K’ was not declared in this scope
+   25 |         int read_data = i2c_read_byte_data(pi, [01;31m[Kimu_i2c[m[K, WHO_AM_I_MPU9250);
+      |                                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:25:57:[m[K [01;31m[Kerror: [m[K‘[01m[KWHO_AM_I_MPU9250[m[K’ was not declared in this scope
+   25 |         int read_data = i2c_read_byte_data(pi, imu_i2c, [01;31m[KWHO_AM_I_MPU9250[m[K);
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:25:57:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KWHO_AM_I_MPU9250[m[K’ had not yet been defined
+In file included from [01m[K/home/pi4/ros2_test/src/gpio_test/src/mpu9250_i2c.cpp:1[m[K:
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/mpu9250_i2c.h:33:[m[K [01;36m[Knote: [m[Kit was later defined here
+   33 | #define WHO_AM_I_MPU9250 0x75 //0x71ならおｋ
+      | 
+In file included from [01m[K/home/pi4/ros2_test/src/gpio_test/include/mpu9250_i2c.h:5[m[K,
+                 from [01m[K/home/pi4/ros2_test/src/gpio_test/src/mpu9250_i2c.cpp:1[m[K:
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:26:14:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kchar read_data[m[K’
+   26 |         char [01;31m[Kread_data[m[K = 0;
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:25:13:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kint read_data[m[K’
+   25 |         int [01;36m[Kread_data[m[K = i2c_read_byte_data(pi, imu_i2c, WHO_AM_I_MPU9250);
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:27:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kread[m[K’ in ‘[01m[K((I2C*)this)->I2C::i2c[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   27 |         i2c.[01;31m[Kread[m[K(WHO_AM_I_MPU9250, &read_data, 1);
+      |             [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/mpu9250lib.dir/build.make:63: CMakeFiles/mpu9250lib.dir/src/mpu9250_i2c.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/mpu9250lib.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

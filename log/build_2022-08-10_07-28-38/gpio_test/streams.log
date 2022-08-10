@@ -1,0 +1,12 @@
+[0.108s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[0.511s] [35m[1mScanning dependencies of target gpio[0m
+[0.701s] [ 50%] [32mBuilding CXX object CMakeFiles/gpio.dir/src/I2C_test.cpp.o[0m
+[15.239s] [100%] [32m[1mLinking CXX executable gpio[0m
+[21.527s] /bin/ld: CMakeFiles/gpio.dir/src/I2C_test.cpp.o: in function `main':
+[21.528s] I2C_test.cpp:(.text+0x2ec): undefined reference to `mpu9250::mpu9250(AD0)'
+[21.528s] /bin/ld: I2C_test.cpp:(.text+0x2f4): undefined reference to `mpu9250::sensorTest()'
+[21.529s] collect2: error: ld returned 1 exit status
+[21.534s] make[2]: *** [CMakeFiles/gpio.dir/build.make:131: gpio] Error 1
+[21.535s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2
+[21.535s] make: *** [Makefile:141: all] Error 2
+[21.546s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4

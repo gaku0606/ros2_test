@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:27 (include_directries):
+  Unknown CMake command "include_directries".
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

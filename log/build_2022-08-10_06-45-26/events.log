@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.001455] (gpio_test) JobQueued: {'identifier': 'gpio_test', 'dependencies': OrderedDict()}
+[0.002960] (gpio_test) JobStarted: {'identifier': 'gpio_test'}
+[0.080588] (gpio_test) JobProgress: {'identifier': 'gpio_test', 'progress': 'cmake'}
+[0.083533] (gpio_test) JobProgress: {'identifier': 'gpio_test', 'progress': 'build'}
+[0.086095] (gpio_test) Command: {'cmd': ['/bin/cmake', '--build', '/home/pi4/ros2_test/build/gpio_test', '--', '-j4', '-l4'], 'cwd': '/home/pi4/ros2_test/build/gpio_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /bin/lesspipe %s'), ('USER', 'pi4'), ('SSH_AGENT_PID', '8339'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pi4'), ('OLDPWD', '/home/pi4/ros2_test/install/gpio_test/share/gpio_test'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8186'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pi4/ros2_test/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pi4'), ('JOURNAL_STREAM', '9:98061'), ('_', '/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi:@/tmp/.ICE-unix/8390,unix/raspberrypi:/tmp/.ICE-unix/8390'), ('INVOCATION_ID', '35142c9a451b40fab43e00d16dd87658'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f029096_9851_4628_9631_c624d142138a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pi4/ros2_test/install/gpio_test:/opt/ros/foxy'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pi4/ros2_test/build/gpio_test'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pi4/ros2_test/install/gpio_test:/opt/ros/foxy')]), 'shell': False}
+[0.105675] (-) TimerEvent: {}
+[0.209132] (-) TimerEvent: {}
+[0.309936] (-) TimerEvent: {}
+[0.321626] (gpio_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gpio\x1b[0m\n'}
+[0.410122] (-) TimerEvent: {}
+[0.486119] (gpio_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gpio.dir/src/I2C_test.cpp.o\x1b[0m\n'}
+[0.510340] (-) TimerEvent: {}
+[0.611636] (-) TimerEvent: {}
+[0.712482] (-) TimerEvent: {}
+[0.813361] (-) TimerEvent: {}
+[0.914139] (-) TimerEvent: {}
+[1.014958] (-) TimerEvent: {}
+[1.115898] (-) TimerEvent: {}
+[1.217179] (-) TimerEvent: {}
+[1.318085] (-) TimerEvent: {}
+[1.418922] (-) TimerEvent: {}
+[1.519821] (-) TimerEvent: {}
+[1.620677] (-) TimerEvent: {}
+[1.721532] (-) TimerEvent: {}
+[1.822552] (-) TimerEvent: {}
+[1.923420] (-) TimerEvent: {}
+[2.024418] (-) TimerEvent: {}
+[2.125718] (-) TimerEvent: {}
+[2.226704] (-) TimerEvent: {}
+[2.327756] (-) TimerEvent: {}
+[2.428732] (-) TimerEvent: {}
+[2.529732] (-) TimerEvent: {}
+[2.630684] (-) TimerEvent: {}
+[2.731560] (-) TimerEvent: {}
+[2.832449] (-) TimerEvent: {}
+[2.933712] (-) TimerEvent: {}
+[3.035520] (-) TimerEvent: {}
+[3.136348] (-) TimerEvent: {}
+[3.237508] (-) TimerEvent: {}
+[3.338340] (-) TimerEvent: {}
+[3.439231] (-) TimerEvent: {}
+[3.540030] (-) TimerEvent: {}
+[3.640826] (-) TimerEvent: {}
+[3.741710] (-) TimerEvent: {}
+[3.842666] (-) TimerEvent: {}
+[3.943556] (-) TimerEvent: {}
+[4.046001] (-) TimerEvent: {}
+[4.146897] (-) TimerEvent: {}
+[4.247831] (-) TimerEvent: {}
+[4.348687] (-) TimerEvent: {}
+[4.449546] (-) TimerEvent: {}
+[4.550879] (-) TimerEvent: {}
+[4.651757] (-) TimerEvent: {}
+[4.752625] (-) TimerEvent: {}
+[4.853656] (-) TimerEvent: {}
+[4.954910] (-) TimerEvent: {}
+[5.055790] (-) TimerEvent: {}
+[5.156700] (-) TimerEvent: {}
+[5.257643] (-) TimerEvent: {}
+[5.358687] (-) TimerEvent: {}
+[5.459783] (-) TimerEvent: {}
+[5.560857] (-) TimerEvent: {}
+[5.662203] (-) TimerEvent: {}
+[5.763430] (-) TimerEvent: {}
+[5.865178] (-) TimerEvent: {}
+[5.966083] (-) TimerEvent: {}
+[6.067572] (-) TimerEvent: {}
+[6.169117] (-) TimerEvent: {}
+[6.270701] (-) TimerEvent: {}
+[6.371730] (-) TimerEvent: {}
+[6.473549] (-) TimerEvent: {}
+[6.574891] (-) TimerEvent: {}
+[6.676030] (-) TimerEvent: {}
+[6.778632] (-) TimerEvent: {}
+[6.880196] (-) TimerEvent: {}
+[6.982247] (-) TimerEvent: {}
+[7.083122] (-) TimerEvent: {}
+[7.184553] (-) TimerEvent: {}
+[7.285366] (-) TimerEvent: {}
+[7.386226] (-) TimerEvent: {}
+[7.487182] (-) TimerEvent: {}
+[7.587988] (-) TimerEvent: {}
+[7.688801] (-) TimerEvent: {}
+[7.789637] (-) TimerEvent: {}
+[7.890673] (-) TimerEvent: {}
+[7.993120] (-) TimerEvent: {}
+[8.095258] (-) TimerEvent: {}
+[8.197714] (-) TimerEvent: {}
+[8.298949] (-) TimerEvent: {}
+[8.400139] (-) TimerEvent: {}
+[8.501342] (-) TimerEvent: {}
+[8.602508] (-) TimerEvent: {}
+[8.703940] (-) TimerEvent: {}
+[8.805016] (-) TimerEvent: {}
+[8.905855] (-) TimerEvent: {}
+[9.006993] (-) TimerEvent: {}
+[9.108233] (-) TimerEvent: {}
+[9.209164] (-) TimerEvent: {}
+[9.310783] (-) TimerEvent: {}
+[9.411940] (-) TimerEvent: {}
+[9.512777] (-) TimerEvent: {}
+[9.614206] (-) TimerEvent: {}
+[9.715050] (-) TimerEvent: {}
+[9.816050] (-) TimerEvent: {}
+[9.925093] (-) TimerEvent: {}
+[10.026546] (-) TimerEvent: {}
+[10.127653] (-) TimerEvent: {}
+[10.229815] (-) TimerEvent: {}
+[10.330912] (-) TimerEvent: {}
+[10.432555] (-) TimerEvent: {}
+[10.534342] (-) TimerEvent: {}
+[10.635403] (-) TimerEvent: {}
+[10.736252] (-) TimerEvent: {}
+[10.837110] (-) TimerEvent: {}
+[10.937918] (-) TimerEvent: {}
+[11.038727] (-) TimerEvent: {}
+[11.139615] (-) TimerEvent: {}
+[11.240490] (-) TimerEvent: {}
+[11.341577] (-) TimerEvent: {}
+[11.442388] (-) TimerEvent: {}
+[11.543344] (-) TimerEvent: {}
+[11.644193] (-) TimerEvent: {}
+[11.745097] (-) TimerEvent: {}
+[11.846068] (-) TimerEvent: {}
+[11.946896] (-) TimerEvent: {}
+[12.047772] (-) TimerEvent: {}
+[12.148782] (-) TimerEvent: {}
+[12.250287] (-) TimerEvent: {}
+[12.351413] (-) TimerEvent: {}
+[12.452402] (-) TimerEvent: {}
+[12.553252] (-) TimerEvent: {}
+[12.654113] (-) TimerEvent: {}
+[12.755169] (-) TimerEvent: {}
+[12.856275] (-) TimerEvent: {}
+[12.957105] (-) TimerEvent: {}
+[13.058095] (-) TimerEvent: {}
+[13.158924] (-) TimerEvent: {}
+[13.259730] (-) TimerEvent: {}
+[13.360847] (-) TimerEvent: {}
+[13.461915] (-) TimerEvent: {}
+[13.531394] (gpio_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gpio\x1b[0m\n'}
+[13.562186] (-) TimerEvent: {}
+[13.663050] (-) TimerEvent: {}
+[13.764098] (-) TimerEvent: {}
+[13.865695] (-) TimerEvent: {}
+[13.967555] (-) TimerEvent: {}
+[14.068428] (-) TimerEvent: {}
+[14.169469] (-) TimerEvent: {}
+[14.270667] (-) TimerEvent: {}
+[14.303934] (gpio_test) StdoutLine: {'line': b'[100%] Built target gpio\n'}
+[14.352928] (gpio_test) CommandEnded: {'returncode': 0}
+[14.370963] (-) TimerEvent: {}
+[14.472185] (-) TimerEvent: {}
+[14.489754] (gpio_test) JobProgress: {'identifier': 'gpio_test', 'progress': 'install'}
+[14.548955] (gpio_test) Command: {'cmd': ['/bin/cmake', '--install', '/home/pi4/ros2_test/build/gpio_test'], 'cwd': '/home/pi4/ros2_test/build/gpio_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /bin/lesspipe %s'), ('USER', 'pi4'), ('SSH_AGENT_PID', '8339'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pi4'), ('OLDPWD', '/home/pi4/ros2_test/install/gpio_test/share/gpio_test'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8186'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pi4/ros2_test/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pi4'), ('JOURNAL_STREAM', '9:98061'), ('_', '/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi:@/tmp/.ICE-unix/8390,unix/raspberrypi:/tmp/.ICE-unix/8390'), ('INVOCATION_ID', '35142c9a451b40fab43e00d16dd87658'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f029096_9851_4628_9631_c624d142138a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pi4/ros2_test/install/gpio_test:/opt/ros/foxy'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pi4/ros2_test/build/gpio_test'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pi4/ros2_test/install/gpio_test:/opt/ros/foxy')]), 'shell': False}
+[14.572518] (-) TimerEvent: {}
+[14.590521] (gpio_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.591690] (gpio_test) StdoutLine: {'line': b'-- Installing: /home/pi4/ros2_test/install/gpio_test/lib/gpio_test/gpio\n'}
+[14.597928] (gpio_test) StdoutLine: {'line': b'-- Set runtime path of "/home/pi4/ros2_test/install/gpio_test/lib/gpio_test/gpio" to ""\n'}
+[14.598666] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/ament_index/resource_index/package_run_dependencies/gpio_test\n'}
+[14.599440] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/ament_index/resource_index/parent_prefix_path/gpio_test\n'}
+[14.600244] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/ament_prefix_path.sh\n'}
+[14.601042] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/ament_prefix_path.dsv\n'}
+[14.601723] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/path.sh\n'}
+[14.602945] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/path.dsv\n'}
+[14.603492] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.bash\n'}
+[14.604694] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.sh\n'}
+[14.605275] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.zsh\n'}
+[14.605845] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.dsv\n'}
+[14.606468] (gpio_test) StdoutLine: {'line': b'-- Installing: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.dsv\n'}
+[14.607277] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/ament_index/resource_index/packages/gpio_test\n'}
+[14.608143] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/cmake/gpio_testConfig.cmake\n'}
+[14.609329] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/cmake/gpio_testConfig-version.cmake\n'}
+[14.612136] (gpio_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.xml\n'}
+[14.617055] (gpio_test) CommandEnded: {'returncode': 0}
+[14.672600] (-) TimerEvent: {}
+[14.774069] (-) TimerEvent: {}
+[14.880466] (-) TimerEvent: {}
+[14.924010] (gpio_test) JobEnded: {'identifier': 'gpio_test', 'rc': 0}
+[14.929792] (-) EventReactorShutdown: {}

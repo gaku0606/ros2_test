@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.001586] (gpio_test) JobQueued: {'identifier': 'gpio_test', 'dependencies': OrderedDict()}
+[0.003298] (gpio_test) JobStarted: {'identifier': 'gpio_test'}
+[0.099043] (-) TimerEvent: {}
+[0.108705] (gpio_test) JobProgress: {'identifier': 'gpio_test', 'progress': 'cmake'}
+[0.152790] (gpio_test) JobProgress: {'identifier': 'gpio_test', 'progress': 'build'}
+[0.153185] (gpio_test) Command: {'cmd': ['/bin/cmake', '--build', '/home/pi4/ros2_test/build/gpio_test', '--', '-j4', '-l4'], 'cwd': '/home/pi4/ros2_test/build/gpio_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /bin/lesspipe %s'), ('USER', 'pi4'), ('SSH_AGENT_PID', '8339'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pi4'), ('OLDPWD', '/home/pi4/ros2_test/install/gpio_test/share/gpio_test'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8186'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pi4/ros2_test/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pi4'), ('JOURNAL_STREAM', '9:98061'), ('_', '/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi:@/tmp/.ICE-unix/8390,unix/raspberrypi:/tmp/.ICE-unix/8390'), ('INVOCATION_ID', '35142c9a451b40fab43e00d16dd87658'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f029096_9851_4628_9631_c624d142138a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pi4/ros2_test/install/gpio_test:/opt/ros/foxy'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pi4/ros2_test/build/gpio_test'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pi4/ros2_test/install/gpio_test:/opt/ros/foxy')]), 'shell': False}
+[0.199247] (-) TimerEvent: {}
+[0.301518] (-) TimerEvent: {}
+[0.404034] (-) TimerEvent: {}
+[0.454534] (gpio_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mpu9250lib\x1b[0m\n'}
+[0.504259] (-) TimerEvent: {}
+[0.521378] (gpio_test) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mpu9250lib.dir/src/mpu9250_i2c.cpp.o\x1b[0m\n'}
+[0.604452] (-) TimerEvent: {}
+[0.705768] (-) TimerEvent: {}
+[0.807573] (-) TimerEvent: {}
+[0.909503] (-) TimerEvent: {}
+[1.011425] (-) TimerEvent: {}
+[1.113314] (-) TimerEvent: {}
+[1.215234] (-) TimerEvent: {}
+[1.317260] (-) TimerEvent: {}
+[1.419235] (-) TimerEvent: {}
+[1.520672] (-) TimerEvent: {}
+[1.622319] (-) TimerEvent: {}
+[1.724246] (-) TimerEvent: {}
+[1.826358] (-) TimerEvent: {}
+[1.845283] (gpio_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/mpu9250_i2c.h:5\x1b[m\x1b[K,\n'}
+[1.846545] (gpio_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/mpu9250_i2c.cpp:1\x1b[m\x1b[K:\n'}
+[1.847397] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KI2C::I2C(char, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.848186] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:25:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimu_i2c\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.850336] (gpio_test) StderrLine: {'line': b'   25 |         int read_data = i2c_read_byte_data(pi, \x1b[01;31m\x1b[Kimu_i2c\x1b[m\x1b[K, WHO_AM_I_MPU9250);\n'}
+[1.853380] (gpio_test) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.860990] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:25:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWHO_AM_I_MPU9250\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.863626] (gpio_test) StderrLine: {'line': b'   25 |         int read_data = i2c_read_byte_data(pi, imu_i2c, \x1b[01;31m\x1b[KWHO_AM_I_MPU9250\x1b[m\x1b[K);\n'}
+[1.866351] (gpio_test) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.869083] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:25:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthe macro \xe2\x80\x98\x1b[01m\x1b[KWHO_AM_I_MPU9250\x1b[m\x1b[K\xe2\x80\x99 had not yet been defined\n'}
+[1.882886] (gpio_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/mpu9250_i2c.cpp:1\x1b[m\x1b[K:\n'}
+[1.885942] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/mpu9250_i2c.h:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kit was later defined here\n'}
+[1.888678] (gpio_test) StderrLine: {'line': b'   33 | #define WHO_AM_I_MPU9250 0x75 //0x71\xe3\x81\xaa\xe3\x82\x89\xe3\x81\x8a\xef\xbd\x8b\n'}
+[1.891342] (gpio_test) StderrLine: {'line': b'      | \n'}
+[1.893950] (gpio_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/mpu9250_i2c.h:5\x1b[m\x1b[K,\n'}
+[1.896541] (gpio_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/mpu9250_i2c.cpp:1\x1b[m\x1b[K:\n'}
+[1.898706] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:26:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kchar read_data\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.901279] (gpio_test) StderrLine: {'line': b'   26 |         char \x1b[01;31m\x1b[Kread_data\x1b[m\x1b[K = 0;\n'}
+[1.904069] (gpio_test) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.906631] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:25:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kint read_data\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.909396] (gpio_test) StderrLine: {'line': b'   25 |         int \x1b[01;36m\x1b[Kread_data\x1b[m\x1b[K = i2c_read_byte_data(pi, imu_i2c, WHO_AM_I_MPU9250);\n'}
+[1.912013] (gpio_test) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.914642] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:27:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kread\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((I2C*)this)->I2C::i2c\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.917269] (gpio_test) StderrLine: {'line': b'   27 |         i2c.\x1b[01;31m\x1b[Kread\x1b[m\x1b[K(WHO_AM_I_MPU9250, &read_data, 1);\n'}
+[1.921951] (gpio_test) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.926572] (-) TimerEvent: {}
+[2.028904] (-) TimerEvent: {}
+[2.112853] (gpio_test) StderrLine: {'line': b'make[2]: *** [CMakeFiles/mpu9250lib.dir/build.make:63: CMakeFiles/mpu9250lib.dir/src/mpu9250_i2c.cpp.o] Error 1\n'}
+[2.114543] (gpio_test) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/mpu9250lib.dir/all] Error 2\n'}
+[2.119822] (gpio_test) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.123287] (gpio_test) CommandEnded: {'returncode': 2}
+[2.132103] (-) TimerEvent: {}
+[2.235585] (-) TimerEvent: {}
+[2.337427] (-) TimerEvent: {}
+[2.414731] (gpio_test) JobEnded: {'identifier': 'gpio_test', 'rc': 2}
+[2.423425] (-) EventReactorShutdown: {}

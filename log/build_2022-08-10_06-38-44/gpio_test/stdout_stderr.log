@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target gpio[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gpio.dir/src/I2C_test.cpp.o[0m
+In file included from [01m[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:10[m[K:
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:[m[K In member function ‘[01m[Kvoid I2C::read(unsigned char, char*, unsigned int)[m[K’:
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:38:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   38 |     void read(unsigned char reg_addr, char* buffer, [01;35m[Kunsigned int count[m[K){
+      |                                                     [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:35:39:[m[K [01;31m[Kerror: [m[K‘[01m[KI2C::I2C(char, int)[m[K’ is private within this context
+   35 |     I2C i2c(MPU9250_SLAVE_ADDR_HIGH, 1[01;31m[K)[m[K;
+      |                                       [01;31m[K^[m[K
+In file included from [01m[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:10[m[K:
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:11:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+   11 |     [01;36m[KI2C[m[K(char slave_addr, int i2cBus = 1){
+      |     [01;36m[K^~~[m[K
+[01m[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:35:39:[m[K [01;31m[Kerror: [m[K‘[01m[KI2C::~I2C()[m[K’ is private within this context
+   35 |     I2C i2c(MPU9250_SLAVE_ADDR_HIGH, 1[01;31m[K)[m[K;
+      |                                       [01;31m[K^[m[K
+In file included from [01m[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:10[m[K:
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:17:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+   17 |     [01;36m[K~[m[KI2C(){
+      |     [01;36m[K^[m[K
+[01m[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:64:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_i2c[m[K’ was not declared in this scope
+   64 |     i2c_close(pi, [01;31m[Kimu_i2c[m[K);
+      |                   [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/gpio.dir/build.make:63: CMakeFiles/gpio.dir/src/I2C_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

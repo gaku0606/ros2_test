@@ -1,0 +1,28 @@
+[0.107s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[0.286s] [35m[1mScanning dependencies of target mpu9250lib[0m
+[0.339s] [ 25%] [32mBuilding CXX object CMakeFiles/mpu9250lib.dir/src/mpu9250_i2c.cpp.o[0m
+[1.442s] [ 50%] [32m[1mLinking CXX static library libmpu9250lib.a[0m
+[1.573s] [ 50%] Built target mpu9250lib
+[1.739s] [ 75%] [32m[1mLinking CXX executable gpio[0m
+[2.468s] [100%] Built target gpio
+[2.509s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[2.695s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/pi4/ros2_test/build/gpio_test
+[2.738s] -- Install configuration: ""
+[2.739s] -- Installing: /home/pi4/ros2_test/install/gpio_test/lib/gpio_test/gpio
+[2.743s] -- Set runtime path of "/home/pi4/ros2_test/install/gpio_test/lib/gpio_test/gpio" to ""
+[2.744s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/ament_index/resource_index/package_run_dependencies/gpio_test
+[2.745s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/ament_index/resource_index/parent_prefix_path/gpio_test
+[2.746s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/ament_prefix_path.sh
+[2.747s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/ament_prefix_path.dsv
+[2.747s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/path.sh
+[2.748s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/environment/path.dsv
+[2.749s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.bash
+[2.749s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.sh
+[2.750s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.zsh
+[2.750s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/local_setup.dsv
+[2.751s] -- Installing: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.dsv
+[2.752s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/ament_index/resource_index/packages/gpio_test
+[2.753s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/cmake/gpio_testConfig.cmake
+[2.754s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/cmake/gpio_testConfig-version.cmake
+[2.756s] -- Up-to-date: /home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.xml
+[2.759s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --install /home/pi4/ros2_test/build/gpio_test

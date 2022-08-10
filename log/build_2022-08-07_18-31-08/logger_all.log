@@ -1,0 +1,140 @@
+[0.661s] DEBUG:colcon:Command line arguments: ['/bin/colcon', 'build', '--packages-select', 'gpio_test']
+[0.661s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff88dec940>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['gpio_test'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff88dec940>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff88deceb0>)
+[0.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.775s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi4/ros2_test'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio_test) by extensions ['ignore', 'ignore_ament_install']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio_test) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio_test) by extension 'ignore_ament_install'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio_test) by extensions ['colcon_pkg']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio_test) by extension 'colcon_pkg'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio_test) by extensions ['colcon_meta']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio_test) by extension 'colcon_meta'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio_test) by extensions ['ros']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/gpio_test) by extension 'ros'
+[0.847s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gpio_test' with type 'ros.ament_cmake' and name 'gpio_test'
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.005s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 264 installed packages in /opt/ros/foxy
+[1.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'gpio_test' build argument 'cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'gpio_test' build argument 'cmake_target' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'gpio_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'gpio_test' build argument 'cmake_clean_cache' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'gpio_test' build argument 'cmake_clean_first' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'gpio_test' build argument 'cmake_force_configure' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'gpio_test' build argument 'ament_cmake_args' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'gpio_test' build argument 'catkin_cmake_args' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'gpio_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.336s] DEBUG:colcon.colcon_core.verb:Building package 'gpio_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi4/ros2_test/build/gpio_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi4/ros2_test/install/gpio_test', 'merge_install': False, 'path': '/home/pi4/ros2_test/src/gpio_test', 'symlink_install': False, 'test_result_base': None}
+[1.340s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.357s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi4/ros2_test/src/gpio_test' with build type 'ament_cmake'
+[1.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi4/ros2_test/src/gpio_test'
+[1.386s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[16.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[16.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --install /home/pi4/ros2_test/build/gpio_test
+[16.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gpio_test)
+[16.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /bin/cmake --install /home/pi4/ros2_test/build/gpio_test
+[16.344s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test' for CMake module files
+[16.347s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test' for CMake config files
+[16.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpio_test', 'cmake_prefix_path')
+[16.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/hook/cmake_prefix_path.ps1'
+[16.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/hook/cmake_prefix_path.dsv'
+[16.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/hook/cmake_prefix_path.sh'
+[16.367s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test/lib'
+[16.369s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test/bin'
+[16.370s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test/lib/pkgconfig/gpio_test.pc'
+[16.371s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test/lib/python3.8/site-packages'
+[16.372s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test/bin'
+[16.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.ps1'
+[16.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.dsv'
+[16.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.sh'
+[16.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.bash'
+[16.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.zsh'
+[16.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi4/ros2_test/install/gpio_test/share/colcon-core/packages/gpio_test)
+[16.540s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gpio_test)
+[16.549s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test' for CMake module files
+[16.552s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test' for CMake config files
+[16.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('gpio_test', 'cmake_prefix_path')
+[16.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/hook/cmake_prefix_path.ps1'
+[16.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/hook/cmake_prefix_path.dsv'
+[16.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/hook/cmake_prefix_path.sh'
+[16.571s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test/lib'
+[16.572s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test/bin'
+[16.572s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test/lib/pkgconfig/gpio_test.pc'
+[16.573s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test/lib/python3.8/site-packages'
+[16.575s] Level 1:colcon.colcon_core.environment:checking '/home/pi4/ros2_test/install/gpio_test/bin'
+[16.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.ps1'
+[16.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.dsv'
+[16.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.sh'
+[16.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.bash'
+[16.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi4/ros2_test/install/gpio_test/share/gpio_test/package.zsh'
+[16.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi4/ros2_test/install/gpio_test/share/colcon-core/packages/gpio_test)
+[16.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.602s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.633s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.634s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.714s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.722s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4/ros2_test/install/local_setup.ps1'
+[16.728s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi4/ros2_test/install/_local_setup_util_ps1.py'
+[16.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4/ros2_test/install/setup.ps1'
+[16.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4/ros2_test/install/local_setup.sh'
+[16.751s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi4/ros2_test/install/_local_setup_util_sh.py'
+[16.754s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4/ros2_test/install/setup.sh'
+[16.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4/ros2_test/install/local_setup.bash'
+[16.763s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4/ros2_test/install/setup.bash'
+[16.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi4/ros2_test/install/local_setup.zsh'
+[16.773s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi4/ros2_test/install/setup.zsh'

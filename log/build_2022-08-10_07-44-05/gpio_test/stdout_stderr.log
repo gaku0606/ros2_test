@@ -1,0 +1,42 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pi4/ros2_test/src/gpio_test/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi4/ros2_test/build/gpio_test
+[35m[1mScanning dependencies of target mpu9250lib[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mpu9250lib.dir/src/mpu9250_i2c.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libmpu9250lib.a[0m
+[ 50%] Built target mpu9250lib
+[35m[1mScanning dependencies of target gpio[0m
+[ 75%] [32m[1mLinking CXX executable gpio[0m
+/bin/ld: libmpu9250lib.a(mpu9250_i2c.cpp.o): in function `I2C::I2C(char, int)':
+mpu9250_i2c.cpp:(.text._ZN3I2CC2Eci[_ZN3I2CC5Eci]+0x1c): undefined reference to `pigpio_start'
+/bin/ld: mpu9250_i2c.cpp:(.text._ZN3I2CC2Eci[_ZN3I2CC5Eci]+0x54): undefined reference to `i2c_open'
+/bin/ld: libmpu9250lib.a(mpu9250_i2c.cpp.o): in function `I2C::~I2C()':
+mpu9250_i2c.cpp:(.text._ZN3I2CD2Ev[_ZN3I2CD5Ev]+0x24): undefined reference to `i2c_close'
+/bin/ld: mpu9250_i2c.cpp:(.text._ZN3I2CD2Ev[_ZN3I2CD5Ev]+0x30): undefined reference to `pigpio_stop'
+/bin/ld: libmpu9250lib.a(mpu9250_i2c.cpp.o): in function `I2C::write(unsigned char, unsigned char)':
+mpu9250_i2c.cpp:(.text._ZN3I2C5writeEhh[_ZN3I2C5writeEhh]+0x40): undefined reference to `i2c_write_byte_data'
+/bin/ld: libmpu9250lib.a(mpu9250_i2c.cpp.o): in function `I2C::read(unsigned char)':
+mpu9250_i2c.cpp:(.text._ZN3I2C4readEh[_ZN3I2C4readEh]+0x30): undefined reference to `i2c_read_byte_data'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/gpio.dir/build.make:132: gpio] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/gpio.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

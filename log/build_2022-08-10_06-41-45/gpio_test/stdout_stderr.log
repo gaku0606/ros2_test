@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target gpio[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gpio.dir/src/I2C_test.cpp.o[0m
+In file included from [01m[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:10[m[K:
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:40:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid I2C::read(unsigned char, char*)[m[K’ cannot be overloaded with ‘[01m[Kvoid I2C::read(unsigned char, char*)[m[K’
+   40 |     void [01;31m[Kread[m[K(unsigned char reg_addr, char* buffer){ //}, unsigned int count){
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/pi4/ros2_test/src/gpio_test/include/I2C.hpp:35:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid I2C::read(unsigned char, char*)[m[K’
+   35 |     void [01;36m[Kread[m[K(unsigned char reg_addr, char* buffer){
+      |          [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/gpio.dir/build.make:63: CMakeFiles/gpio.dir/src/I2C_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

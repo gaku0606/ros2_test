@@ -1,0 +1,11 @@
+[0.094s] Invoking command in '/home/pi4/ros2_test/build/gpio_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4
+[0.312s] [35m[1mScanning dependencies of target gpio[0m
+[0.463s] [ 50%] [32mBuilding CXX object CMakeFiles/gpio.dir/src/I2C_test.cpp.o[0m
+[0.922s] [01m[K/home/pi4/ros2_test/src/gpio_test/src/I2C_test.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmpu9250_i2c.h: No such file or directory
+[0.923s]     9 | #include [01;31m[K"mpu9250_i2c.h"[m[K
+[0.924s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.925s] compilation terminated.
+[0.931s] make[2]: *** [CMakeFiles/gpio.dir/build.make:63: CMakeFiles/gpio.dir/src/I2C_test.cpp.o] Error 1
+[0.933s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2
+[0.934s] make: *** [Makefile:141: all] Error 2
+[0.942s] Invoked command in '/home/pi4/ros2_test/build/gpio_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /bin/cmake --build /home/pi4/ros2_test/build/gpio_test -- -j4 -l4

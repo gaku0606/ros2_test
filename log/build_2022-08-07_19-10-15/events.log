@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000964] (gpio_test) JobQueued: {'identifier': 'gpio_test', 'dependencies': OrderedDict()}
+[0.001872] (gpio_test) JobStarted: {'identifier': 'gpio_test'}
+[0.067495] (gpio_test) JobProgress: {'identifier': 'gpio_test', 'progress': 'cmake'}
+[0.071560] (gpio_test) JobProgress: {'identifier': 'gpio_test', 'progress': 'build'}
+[0.074912] (gpio_test) Command: {'cmd': ['/bin/cmake', '--build', '/home/pi4/ros2_test/build/gpio_test', '--', '-j4', '-l4'], 'cwd': '/home/pi4/ros2_test/build/gpio_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /bin/lesspipe %s'), ('USER', 'pi4'), ('SSH_AGENT_PID', '8339'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pi4'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8186'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pi4'), ('JOURNAL_STREAM', '9:98061'), ('_', '/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi:@/tmp/.ICE-unix/8390,unix/raspberrypi:/tmp/.ICE-unix/8390'), ('INVOCATION_ID', '35142c9a451b40fab43e00d16dd87658'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dc6098a5_6d52_46e7_8857_e14867bba09b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pi4/ros2_test/build/gpio_test'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099459] (-) TimerEvent: {}
+[0.201584] (-) TimerEvent: {}
+[0.302699] (-) TimerEvent: {}
+[0.311858] (gpio_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gpio\x1b[0m\n'}
+[0.402906] (-) TimerEvent: {}
+[0.470799] (gpio_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gpio.dir/src/gpio2.cpp.o\x1b[0m\n'}
+[0.503230] (-) TimerEvent: {}
+[0.604186] (-) TimerEvent: {}
+[0.705302] (-) TimerEvent: {}
+[0.806647] (-) TimerEvent: {}
+[0.907431] (-) TimerEvent: {}
+[1.008186] (-) TimerEvent: {}
+[1.109011] (-) TimerEvent: {}
+[1.209817] (-) TimerEvent: {}
+[1.310641] (-) TimerEvent: {}
+[1.411480] (-) TimerEvent: {}
+[1.512286] (-) TimerEvent: {}
+[1.613096] (-) TimerEvent: {}
+[1.713902] (-) TimerEvent: {}
+[1.814703] (-) TimerEvent: {}
+[1.915593] (-) TimerEvent: {}
+[2.016378] (-) TimerEvent: {}
+[2.117236] (-) TimerEvent: {}
+[2.218072] (-) TimerEvent: {}
+[2.318874] (-) TimerEvent: {}
+[2.419664] (-) TimerEvent: {}
+[2.520625] (-) TimerEvent: {}
+[2.621609] (-) TimerEvent: {}
+[2.722696] (-) TimerEvent: {}
+[2.823792] (-) TimerEvent: {}
+[2.924683] (-) TimerEvent: {}
+[3.026386] (-) TimerEvent: {}
+[3.127647] (-) TimerEvent: {}
+[3.228738] (-) TimerEvent: {}
+[3.329894] (-) TimerEvent: {}
+[3.431423] (-) TimerEvent: {}
+[3.532523] (-) TimerEvent: {}
+[3.633858] (-) TimerEvent: {}
+[3.735078] (-) TimerEvent: {}
+[3.836010] (-) TimerEvent: {}
+[3.936894] (-) TimerEvent: {}
+[4.038233] (-) TimerEvent: {}
+[4.139647] (-) TimerEvent: {}
+[4.240720] (-) TimerEvent: {}
+[4.342646] (-) TimerEvent: {}
+[4.443849] (-) TimerEvent: {}
+[4.544688] (-) TimerEvent: {}
+[4.645791] (-) TimerEvent: {}
+[4.746817] (-) TimerEvent: {}
+[4.847854] (-) TimerEvent: {}
+[4.948656] (-) TimerEvent: {}
+[5.049431] (-) TimerEvent: {}
+[5.150276] (-) TimerEvent: {}
+[5.251206] (-) TimerEvent: {}
+[5.351973] (-) TimerEvent: {}
+[5.452758] (-) TimerEvent: {}
+[5.554565] (-) TimerEvent: {}
+[5.656859] (-) TimerEvent: {}
+[5.758006] (-) TimerEvent: {}
+[5.859192] (-) TimerEvent: {}
+[5.970096] (-) TimerEvent: {}
+[6.071215] (-) TimerEvent: {}
+[6.172961] (-) TimerEvent: {}
+[6.274345] (-) TimerEvent: {}
+[6.375403] (-) TimerEvent: {}
+[6.476276] (-) TimerEvent: {}
+[6.577765] (-) TimerEvent: {}
+[6.678803] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/gpio2.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.680077] (-) TimerEvent: {}
+[6.680582] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/gpio2.cpp:35:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst char [9]\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[6.681255] (gpio_test) StderrLine: {'line': b'   35 |             str = \x1b[01;31m\x1b[K"LED ON!!"\x1b[m\x1b[K;\n'}
+[6.681793] (gpio_test) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.682365] (gpio_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[6.682890] (gpio_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/gpio2.cpp:6\x1b[m\x1b[K:\n'}
+[6.683343] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(const std_msgs::msg::String_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.683896] (gpio_test) StderrLine: {'line': b'   31 | struct \x1b[01;36m\x1b[KString_\x1b[m\x1b[K\n'}
+[6.684413] (gpio_test) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.684857] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [9]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.685297] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(std_msgs::msg::String_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.685741] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [9]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.686267] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/gpio2.cpp:39:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst char [8]\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[6.686741] (gpio_test) StderrLine: {'line': b'   39 |             str = \x1b[01;31m\x1b[K"LED OFF"\x1b[m\x1b[K;\n'}
+[6.687199] (gpio_test) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.687664] (gpio_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[6.688126] (gpio_test) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi4/ros2_test/src/gpio_test/src/gpio2.cpp:6\x1b[m\x1b[K:\n'}
+[6.688620] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(const std_msgs::msg::String_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.689057] (gpio_test) StderrLine: {'line': b'   31 | struct \x1b[01;36m\x1b[KString_\x1b[m\x1b[K\n'}
+[6.689487] (gpio_test) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.689959] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [8]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.690502] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(std_msgs::msg::String_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.691056] (gpio_test) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:31:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [8]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.780304] (-) TimerEvent: {}
+[6.881618] (-) TimerEvent: {}
+[6.982959] (-) TimerEvent: {}
+[7.083894] (-) TimerEvent: {}
+[7.184884] (-) TimerEvent: {}
+[7.285776] (-) TimerEvent: {}
+[7.386699] (-) TimerEvent: {}
+[7.487870] (-) TimerEvent: {}
+[7.588700] (-) TimerEvent: {}
+[7.689569] (-) TimerEvent: {}
+[7.790438] (-) TimerEvent: {}
+[7.891239] (-) TimerEvent: {}
+[7.992046] (-) TimerEvent: {}
+[8.092990] (-) TimerEvent: {}
+[8.194206] (-) TimerEvent: {}
+[8.294988] (-) TimerEvent: {}
+[8.395766] (-) TimerEvent: {}
+[8.496888] (-) TimerEvent: {}
+[8.598650] (-) TimerEvent: {}
+[8.699673] (-) TimerEvent: {}
+[8.800540] (-) TimerEvent: {}
+[8.901665] (-) TimerEvent: {}
+[9.010105] (-) TimerEvent: {}
+[9.110902] (-) TimerEvent: {}
+[9.211742] (-) TimerEvent: {}
+[9.312593] (-) TimerEvent: {}
+[9.413488] (-) TimerEvent: {}
+[9.514365] (-) TimerEvent: {}
+[9.615171] (-) TimerEvent: {}
+[9.715990] (-) TimerEvent: {}
+[9.816865] (-) TimerEvent: {}
+[9.917665] (-) TimerEvent: {}
+[10.018524] (-) TimerEvent: {}
+[10.119374] (-) TimerEvent: {}
+[10.220530] (-) TimerEvent: {}
+[10.321406] (-) TimerEvent: {}
+[10.344709] (gpio_test) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gpio.dir/build.make:63: CMakeFiles/gpio.dir/src/gpio2.cpp.o] Error 1\n'}
+[10.345541] (gpio_test) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gpio.dir/all] Error 2\n'}
+[10.346323] (gpio_test) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.351785] (gpio_test) CommandEnded: {'returncode': 2}
+[10.421621] (-) TimerEvent: {}
+[10.523369] (-) TimerEvent: {}
+[10.586780] (gpio_test) JobEnded: {'identifier': 'gpio_test', 'rc': 2}
+[10.590571] (-) EventReactorShutdown: {}

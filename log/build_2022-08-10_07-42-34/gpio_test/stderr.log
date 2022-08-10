@@ -1,0 +1,7 @@
+CMake Error at CMakeLists.txt:52 (target_link_libraries):
+  Target "mpu9250lib" of type EXECUTABLE may not be linked into another
+  target.  One may link only to INTERFACE, OBJECT, STATIC or SHARED
+  libraries, or to executables with the ENABLE_EXPORTS property set.
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1
